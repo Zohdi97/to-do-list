@@ -6,7 +6,6 @@ function App() {
   const [inputValue, setInputValue] = useState({ id: null, task: "" });
 
   const [post, setPost] = useState("");
-  const [edit, setEdit] = useState("");
   const [toDoList, setToDoList] = useState([]);
   const [showEdit, setShowEdit] = useState(false);
 
