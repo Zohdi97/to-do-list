@@ -3,7 +3,6 @@ import EditTask from "./EditTask";
 import classes from "./App.module.css";
 
 function App() {
-  // comment
   const [inputValue, setInputValue] = useState({ id: null, task: "" });
 
   const [post, setPost] = useState("");
